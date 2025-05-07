@@ -1,8 +1,8 @@
 "use client";
 
-import { FarcasterActions } from "@/components/Home/FarcasterActions";
-import { User } from "@/components/Home/User";
-import { WalletActions } from "@/components/Home/WalletActions";
+import { FarcasterActions } from "./FarcasterActions";
+import { User } from "./User";
+import { WalletActions } from "./WalletActions";
 
 export default function Home() {
   return (
@@ -17,4 +17,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+} 
