@@ -3,7 +3,7 @@
 // 引入 Farcaster Frame 的上下文类型
 import { FrameContext } from "@farcaster/frame-core/dist/context";
 // 引入 Farcaster Frame SDK
-import sdk from "@farcaster/frame-sdk";
+import { sdk } from "@farcaster/frame-sdk";
 import {
   createContext,
   ReactNode,
